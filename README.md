@@ -1,18 +1,20 @@
-# PeakPlay NFL - Sitio Web de Políticas
+# PeakPlay NFL - Official Website & Privacy Policies
 
-Este directorio contiene el sitio web de políticas para PeakPlay NFL, requerido para el cumplimiento de Google Play Console.
+This directory contains the official website and privacy policies for PeakPlay NFL, required for Google Play Console compliance and app store submission.
 
-## Estructura del Sitio
+## 🌟 Website Structure
 
 ```
 web_policies/
-├── index.html              # Página principal del sitio
-├── privacy-policy.html     # Política de privacidad
-├── terms-conditions.html   # Términos y condiciones
-├── styles.css             # Estilos CSS del sitio
-├── assets/                # Imágenes y recursos
-│   └── logo.png          # Logo de la aplicación
-└── README.md             # Este archivo
+├── index.html                      # Professional homepage
+├── privacy-policy.html             # GDPR-compliant privacy policy  
+├── terms-conditions.html           # Comprehensive terms of service
+├── styles.css                      # Professional CSS styling
+├── assets/                         # Images and resources
+│   ├── google_play_store_icon.png  # Official app icon (512x512)
+│   ├── google-play-badge.png       # Official Google Play badge
+│   └── logo.png                    # Legacy logo (backup)
+└── README.md                       # This documentation
 ```
 
 ## Páginas Incluidas
