@@ -1,14 +1,17 @@
 # PeakPlay NFL - Official Website & Privacy Policies
 
-This directory contains the official website and privacy policies for PeakPlay NFL, required for Google Play Console compliance and app store submission.
+This directory contains the PeakPlay website and policies for version 1.5, including Fantasy accounts, Premium subscriptions, privacy controls and account deletion. Deployment uses GitHub Pages from main.
 
 ## 🌟 Website Structure
 
 ```
 web_policies/
 ├── index.html                      # Professional homepage
-├── privacy-policy.html             # GDPR-compliant privacy policy  
-├── terms-conditions.html           # Comprehensive terms of service
+├── privacy-policy.html             # Spanish privacy policy draft
+├── terms-conditions.html           # Spanish terms draft
+├── privacy-policy-en.html          # English privacy policy draft
+├── terms-conditions-en.html        # English terms draft
+├── delete-account.html             # Bilingual external deletion request
 ├── styles.css                      # Professional CSS styling
 ├── assets/                         # Images and resources
 │   ├── google_play_store_icon.png  # Official app icon (512x512)
@@ -45,17 +48,27 @@ web_policies/
 - **Diseño Responsivo**: Compatible con dispositivos móviles y desktop
 - **Navegación Intuitiva**: Menú de navegación claro entre páginas
 - **Estilo Profesional**: Diseño moderno con gradientes y animations
-- **Accesibilidad**: Cumple con estándares de accesibilidad web
+- **Accesibilidad**: Estructura semántica; pendiente de auditoría
 - **SEO Optimizado**: Meta tags apropiados para cada página
 
-## Cumplimiento Legal
+## Revisión para PeakPlay 1.5
 
-Este sitio web cumple con los requisitos de:
+Los borradores incluyen cuentas Fantasy, Firebase/RevenueCat, Premium con prueba
+para usuarios elegibles, controles de privacidad publicitaria y borrado asíncrono.
+No constituyen una certificación de cumplimiento legal ni resuelven por sí mismos
+los rechazos de contenido de terceros de Apple.
 
-- **Google Play Console**: Política de privacidad y términos requeridos
-- **GDPR**: Derechos de usuarios y transparencia de datos
-- **AdMob Policies**: Divulgación de uso de publicidad
-- **NFL Content**: Disclaimer sobre contenido de terceros
+Antes de publicar:
+
+- Revisar el contenido con el titular y confirmar la titularidad/licencias.
+- Verificar la recepción de `support@alekla.com` y quién procesa las solicitudes.
+  La búsqueda de correo recibido en los últimos 180 días no encontró evidencia;
+  eso no prueba que el buzón sea inválido. No se envió correo de prueba.
+- Procesar solicitudes de borrado con verificación de titularidad, sin pedir
+  contraseñas, y confirmar la finalización real del mismo proceso del backend.
+- Publicar la página externa `delete-account.html` junto con las políticas y
+  comprobar sus enlaces finales antes de actualizar Data Safety/App Privacy.
+
 
 ## Configuración
 
@@ -109,9 +122,9 @@ Una vez desplegado, la URL debe ser proporcionada en:
 ## Contacto
 
 Para preguntas sobre este sitio web:
-- **Soporte**: support@peakplay.app
-- **Legal**: legal@peakplay.app
-- **Privacidad**: privacy@peakplay.app
+- **Soporte**: support@alekla.com
+- **Legal**: support@alekla.com
+- **Privacidad**: support@alekla.com
 
 ## Licencia
 
